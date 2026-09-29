@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {#- The host (GitHub Pages) can't send headers, so the policy is a meta tag. Everything is self-hosted. #}
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+    {%- set page_title = page.title if page and page.title and not page.is_homepage else none %}
+    <title>{% if page_title %}{{ page_title|striptags }} | {% endif %}{{ config.site_name }}</title>
+    {%- if config.site_description %}
+    <meta name="description" content="{{ config.site_description }}">
+    {%- endif %}
+    {%- if page and page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+    {%- endif %}
+    <link rel="icon" href="{{ 'favicon.ico'|url }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ 'favicon.png'|url }}">
+    <link rel="apple-touch-icon" href="{{ 'apple-touch-icon.png'|url }}">
+    <link rel="preload" href="{{ 'assets/fonts/FiraSans-Regular.woff2'|url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{{ 'assets/css/fonts.css'|url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/tokens.css'|url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/site.css'|url }}">
+    <script type="module" src="{{ 'assets/js/back-link.js'|url }}"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="{{ nav.homepage.url|url if nav.homepage else '.' }}" class="site-header__home" data-internal>
+          {#- The logo's viewBox is cropped to the artwork (337.5 x 103.5); 104 x 32 keeps that ratio. #}
+          <img src="{{ 'assets/tercen-logo.svg'|url }}" width="104" height="32" alt="Tercen policies home">
+        </a>
+        <a href="https://www.tercen.com/" class="site-header__back" data-back-link>&larr; Back to tercen.com</a>
+      </div>
+    </header>
+    <div class="container site-body">
+      <nav class="site-nav" aria-label="Policy documents">
+        <ul class="site-nav__list">
+          {%- for item in nav %}
+          <li><a href="{{ item.url|url }}" data-internal{% if item.active %} aria-current="page"{% endif %}>{{ item.title|e }}</a></li>
+          {%- endfor %}
+        </ul>
+      </nav>
+      <main class="site-main">
+        <article class="doc">
+          {% block content %}{{ page.content }}{% endblock %}
+        </article>
+      </main>
+    </div>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>{{ config.copyright }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

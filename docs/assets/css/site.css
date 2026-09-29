@@ -1,0 +1,287 @@
+/* Layout and document styles. Colours, type and spacing come from tokens.css; the header, footer and
+   page defaults follow tercen-arandur/lattin (src/styles/base.css, src/layouts/Base.astro). */
+
+:root {
+  /* Layout widths are not in the design tokens yet; these are the only local values. */
+  --layout-max-width: 1120px;
+  --measure: 72ch;
+  --nav-width: 240px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  font-size: var(--text-body-large-size);
+  font-weight: var(--text-body-large-weight);
+  line-height: var(--text-body-large-line-height);
+  color: var(--color-on-surface);
+  background: var(--color-surface);
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+:focus-visible {
+  outline: var(--window-focus-ring-width) solid var(--color-primary);
+  outline-offset: var(--window-focus-ring-offset);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--layout-max-width);
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-xl);
+  }
+}
+
+/* Header: logo on the left, the way back to the main site on the right. */
+
+.site-header {
+  border-bottom: var(--line-weight-subtle) solid var(--color-outline-variant);
+}
+
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm) var(--spacing-md);
+  min-height: var(--window-toolbar-height);
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
+}
+
+.site-header__home {
+  display: inline-flex;
+}
+
+.site-header__back {
+  font-size: var(--text-label-large-size);
+  font-weight: var(--text-label-large-weight);
+  line-height: var(--text-label-large-line-height);
+  text-decoration: none;
+}
+
+.site-header__back:hover {
+  text-decoration: underline;
+}
+
+/* Body: the document list, then the document. Side by side from 1024px. */
+
+.site-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-xxl);
+}
+
+.site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs) var(--spacing-md);
+  margin: 0;
+  padding: 0 0 var(--spacing-md);
+  list-style: none;
+  border-bottom: var(--line-weight-subtle) solid var(--color-outline-variant);
+  font-size: var(--text-body-medium-size);
+  line-height: var(--text-body-medium-line-height);
+}
+
+.site-nav__list a {
+  color: var(--color-on-surface-variant);
+  text-decoration: none;
+}
+
+.site-nav__list a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+.site-nav__list a[aria-current='page'] {
+  color: var(--color-primary);
+  font-weight: var(--text-label-large-weight);
+}
+
+.site-main {
+  min-width: 0;
+}
+
+@media (min-width: 1024px) {
+  .site-body {
+    flex-direction: row;
+    gap: var(--spacing-xxl);
+    padding-top: var(--spacing-xxl);
+  }
+
+  .site-nav {
+    flex: 0 0 var(--nav-width);
+  }
+
+  .site-nav__list {
+    position: sticky;
+    top: var(--spacing-lg);
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    padding: 0;
+    border-bottom: 0;
+  }
+
+  .site-main {
+    flex: 1;
+  }
+}
+
+/* The documents. */
+
+.doc {
+  max-width: var(--measure);
+  overflow-wrap: break-word;
+}
+
+.doc h1,
+.doc h2,
+.doc h3,
+.doc h4 {
+  scroll-margin-top: var(--spacing-md);
+}
+
+.doc h1 {
+  margin: 0 0 var(--spacing-lg);
+  font-size: var(--text-headline-large-size);
+  font-weight: var(--text-headline-large-weight);
+  line-height: var(--text-headline-large-line-height);
+}
+
+.doc h2 {
+  margin: var(--spacing-xl) 0 var(--spacing-md);
+  font-size: var(--text-headline-medium-size);
+  font-weight: var(--text-headline-medium-weight);
+  line-height: var(--text-headline-medium-line-height);
+}
+
+.doc h3,
+.doc h4 {
+  margin: var(--spacing-lg) 0 var(--spacing-sm);
+  font-size: var(--text-headline-small-size);
+  font-weight: var(--text-headline-small-weight);
+  line-height: var(--text-headline-small-line-height);
+}
+
+.doc p,
+.doc ul,
+.doc ol,
+.doc dl,
+.doc table,
+.doc pre {
+  margin: 0 0 var(--spacing-md);
+}
+
+.doc ul,
+.doc ol {
+  padding-left: var(--spacing-lg);
+}
+
+.doc li + li {
+  margin-top: var(--spacing-xs);
+}
+
+.doc hr {
+  margin: var(--spacing-xl) 0;
+  border: 0;
+  border-top: var(--line-weight-subtle) solid var(--color-outline-variant);
+}
+
+/* The heading permalinks the toc extension adds. */
+.doc .headerlink {
+  margin-left: var(--spacing-sm);
+  color: var(--color-on-surface-muted);
+  text-decoration: none;
+  opacity: 0;
+}
+
+.doc :is(h1, h2, h3, h4):hover .headerlink,
+.doc .headerlink:focus-visible {
+  opacity: 1;
+}
+
+/* Tables scroll inside themselves rather than widening the page. */
+.doc table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: var(--text-body-medium-size);
+  line-height: var(--text-body-medium-line-height);
+}
+
+.doc th,
+.doc td {
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: var(--line-weight-subtle) solid var(--color-outline-variant);
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc th {
+  background: var(--color-surface-container-low);
+  font-weight: var(--text-label-large-weight);
+}
+
+.doc pre {
+  padding: var(--spacing-md);
+  overflow-x: auto;
+  background: var(--color-surface-container-low);
+  border-radius: var(--radius-md);
+  font-size: var(--text-body-small-size);
+  line-height: var(--text-body-small-line-height);
+}
+
+/* No monospace face in the design tokens yet: the system's. */
+.doc code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Footer. */
+
+.site-footer {
+  border-top: var(--line-weight-subtle) solid var(--color-outline-variant);
+  background: var(--color-surface-container-low);
+  color: var(--color-on-surface-variant);
+  font-size: var(--text-body-medium-size);
+  line-height: var(--text-body-medium-line-height);
+  padding: var(--spacing-lg) 0;
+}
+
+.site-footer p {
+  margin: 0;
+}

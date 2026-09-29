@@ -1,113 +1,51 @@
-site_name: Policy Documents
-docs_dir: docs/
-site_url: https://tercen.com
-repo_url: https://github.com/tercen/policy_documents
-repo_name: tercen/policy_documents
-edit_uri: edit/main/docs/
+site_name: Tercen policy documents
+site_url: https://policies.tercen.com/
 site_author: "Tercen Authors"
 site_description: "Tercen standard terms and conditions"
+docs_dir: docs/
 use_directory_urls: true
 
 copyright: Copyright &copy; 2024 Tercen
 
+# A small theme of our own (theme/): Tercen tokens, self-hosted Fira Sans, and one script, the
+# "Back to tercen.com" link (docs/assets/js/back-link.js). No framework JavaScript, no web fonts
+# from elsewhere.
 theme:
-  name: material
-  # custom_dir: .docs/overrides/
-  font: false
-  favicon: https://tercen.com/_assets/brand/fav.png
-  logo: ./images/Small Logo white.png
-  icon:
-    repo: fontawesome/brands/github
-  palette:
-    primary: custom
-  features:
-    - content.tabs.link
-    - instant
-    - navigation.footer
-    - navigation.path
-    - navigation.sections
-    #    - navigation.expand
-    #    - navigation.tabs
-    #    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - tabs
-    - content.code.annotate
-    - content.code.copy
-    - content.action.edit
-    - content.action.view
-extra_css:
-  - stylesheets/extra.css
-plugins:
-  - search
-  - git-committers:
-      repository: tercen/policy_documents
-      branch: main
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-  #  - exclude:
-  #      glob:
-  #        - README.md
-  #        - "*.gotmpl"
-  #        - "*.gotmpl.md"
-  #  - awesome-pages
-  # - macros:
-  #     module_name: .docs/macros/includes/main
-  - minify:
-      minify_html: true
-      minify_js: true
-      htmlmin_opts:
-        remove_comments: true
-      #js_files: []
-  # - redirects:
-  #     redirect_maps:
-  #       README.md: Getting-Started/intro.md
-  - mike:
-      # these fields are all optional; the defaults are as below...
-      version_selector: true # set to false to leave out the version selector
-      css_dir: css # the directory to put the version selector's CSS
-      javascript_dir: js # the directory to put the version selector's JS
-      canonical_version:
-        null # the version for <link rel="canonical">; `null`
-      # uses the version specified via `mike deploy`
+  name: null
+  custom_dir: theme/
+  static_templates:
+    - 404.html
+
+# Every file name here is its public URL: /privacy/, /terms-of-service/, /cookies-and-subprocessors/.
+# The main site links to those three, so they must not change.
+nav:
+  - Introduction: index.md
+  - Privacy Policy: privacy.md
+  - Terms of Service: terms-of-service.md
+  - Cookies and Sub-processors: cookies-and-subprocessors.md
+  - Professional Services T&C: professional-services-terms.md
+  - Licence: policy-licence.md
+
 markdown_extensions:
   - admonition
   - attr_list
   - def_list
   - footnotes
-  - meta
+  - tables
   - toc:
       permalink: true
-  - tables
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      use_pygments: true
-      linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.snippets
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.superfences
-  - pymdownx.tabbed
-extra:
-  version:
-    provider: mike
-nav:
-  - Introduction: index.md
-  - Privacy Policy: Privacy.md
-  - Terms of Service: terms-of-service.md
-  - Cookies and Sub-processors: cookies-and-subprocesses.md
-  - Professional Services T&C: Terms-and-Conditions-Professional-Services.md
-  - Licence: policy-licence.md
-      
+
+# With --strict, any of these is a build failure.
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn
+
+# No search: six documents, all listed on every page. (MkDocs adds its search plugin unless told not to.)
+plugins: []
