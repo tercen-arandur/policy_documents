@@ -143,7 +143,7 @@ We share your User Personal Information, if you consent, after letting you know 
 
 ### With service providers
 
-We share User Personal Information with a limited number of service providers who process it on our behalf to provide or improve our Service, and who have agreed to privacy restrictions similar to the ones in our Privacy Statement by signing data protection agreements or making similar commitments. Our service providers perform customer support ticketing, network data transmission, security, and other similar services. While Tercen processes all User Personal Information in the European Union.
+We share User Personal Information with a limited number of service providers who process it on our behalf to provide or improve our Service, and who have agreed to privacy restrictions similar to the ones in our Privacy Statement by signing data protection agreements or making similar commitments. Our service providers perform customer support ticketing, network data transmission, security, and other similar services.
 
 ### For security purposes
 
@@ -181,7 +181,7 @@ All code developed by users is available publicly on Tercen. If you have develop
 
 Many of Tercen’s services and features are public-facing. If your content is public-facing, third parties may access and use it in compliance with our Terms of Service, such as by viewing your profile or Projects or pulling data via our API. We do not sell that content; it is yours. However, we do allow third parties, such as research organizations or archives, to compile public-facing Tercen information. Other third parties, such as data brokers, have been known to scrape sites such as Tercen and compile data as well.
 
-Your User Personal Information associated with your content could be gathered by third parties in these compilations of Tercen data. If you do not want your User Personal Information to appear in third parties’ compilations of Tercen data, please do not make your User Personal Information publicly available and be sure to configure your email address to be private in your user profile and in your commit settings. We currently set Users’ email address to private by default, but legacy Tercen Users may need to update their settings.
+Your User Personal Information associated with your content could be gathered by third parties in these compilations of Tercen data. If you do not want your User Personal Information to appear in third parties’ compilations of Tercen data, please do not make your User Personal Information publicly available and be sure to configure your email address to be private in your user profile. We currently set Users’ email address to private by default, but legacy Tercen Users may need to update their settings.
 
 If you would like to compile Tercen data, you must comply with our Terms of Service regarding scraping and privacy, and you may only use any public-facing User Personal Information you gather for the purpose for which our user authorized it. For example, where a Tercen user has made an email address public-facing for the purpose of identification and attribution, do not use that email address for commercial advertising. We expect you to reasonably secure any User Personal Information you have gathered from Tercen, and to respond promptly to complaints, removal requests, and “do not contact” requests from Tercen or Tercen users.
 
@@ -201,12 +201,6 @@ If you collaborate on or become a member of an Account that has agreed to the Co
 
 Please contact the Account owners for more information about how they might process your User Personal Information in their Organization and the ways for you to access, update, alter, or delete the User Personal Information stored in the Account.
 
-## Additional services
-
-### Tercen Pages
-
-If you create a Tercen Pages website, it is your responsibility to post a privacy statement that accurately describes how you collect, use, and share personal information and other visitor information, and how you comply with applicable data privacy laws, rules, and regulations. Please note that Tercen may collect User Personal Information from visitors to your Tercen Pages website, including logs of visitor IP addresses, to comply with legal obligations, and to maintain the security and integrity of the Website and the Service.
-
 ---
 
 ## How you can access and control the information we collect
@@ -225,9 +219,7 @@ Generally, Tercen retains User Personal Information for as long as your account 
 
 If you would like to cancel your account or delete your User Personal Information, you may do so in your user profile. We retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements, but barring legal requirements, we will delete your full profile (within reason) within 90 days of your request. You may contact <support@tercen.com> to request the erasure of the data we process on the basis of consent within 30 days.
 
-After an account has been deleted, certain data, such as contributions to other Users’ Projects and comments in others’ issues, will remain. However, we will delete or de-identify your User Personal Information, including your username and email address, from the author field of issues, pull requests, and comments by associating them with a ghost user.
-
-That said, the email address you have supplied via your Project commit settings will always be associated with your commits in the Project system. If you choose to make your email address private, you should also update your Project commit settings. We are unable to change or delete data in the Project commit history — the Project software is designed to maintain a record — but we do enable you to control what information you put in that record.
+After an account has been deleted, certain data, such as contributions to other Users’ Projects, will remain. However, we will delete or de-identify your User Personal Information, including your username and email address, in that data.
 
 ---
 
@@ -265,7 +257,13 @@ Tercen enforces a written security information program. Our program:
 
 In the event of a data breach that affects your User Personal Information, we will act promptly to mitigate the impact of a breach and notify any affected Users without undue delay.
 
-Transmission of data on Tercen is encrypted using SSH, HTTPS (TLS), and  Project content is encrypted at rest. No method of transmission, or method of electronic storage, is 100% secure but Tercen uses industry leading Cloud Service providers with multiple security and risk mitigation strategies to protect your data.
+Tercen uses administrative, technical, and physical security controls where appropriate to protect your User Personal Information. No method of transmission, or method of electronic storage, is 100% secure but Tercen uses industry leading Cloud Service providers with multiple security and risk mitigation strategies to protect your data.
+
+---
+
+## International data transfers
+
+Tercen stores and processes User Personal Information in the European Union. Where one of our service providers processes User Personal Information outside the European Union, in a country that the European Commission has not recognized as having an adequate level of data protection, we generally rely on the standard contractual clauses published by the European Commission under [Commission Implementing Decision 2021/914](https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj), to help protect your rights and enable these protections to travel with your data. [TK: which service providers process User Personal Information outside the European Union, and where.] To learn more about the European Commission’s decisions on the adequacy of the protection of personal data, see this article on the [European Commission website](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en).
 
 ---
 
@@ -283,7 +281,7 @@ In particular:
 
 * We offer you simple methods of accessing, altering, or deleting the User Personal Information we have collected, where legally permitted.
 
-* We provide our Users notice, choice, accountability, security, and access regarding their User Personal Information, and we limit the purpose for processing it. We also provide our Users a method of recourse and enforcement. These are the Privacy Shield Principles, but they are also just good practices.
+* We provide our Users notice, choice, accountability, security, and access regarding their User Personal Information, and we limit the purpose for processing it. We also provide our Users a method of recourse and enforcement.
 
 ---
 
@@ -318,15 +316,13 @@ You may also contact our Data Protection Officer directly at the following addre
 
 ### Dispute resolution process
 
-In the unlikely event that a dispute arises between you and Tercen regarding our handling of your User Personal Information, we will do our best to resolve it. If we cannot, we have selected to cooperate with the relevant EU Data Protection Authority, or a panel established by the European data protection authorities, for resolving disputes with EU individuals, and with the Swiss Federal Data Protection and Information Commissioner (FDPIC) for resolving disputes with Swiss individuals. Please contact us if you’d like us to direct you to your data protection authority contacts.
-
-Additionally, if you are a resident of an EU member state, you have the right to file a complaint with your local supervisory authority.
+In the unlikely event that a dispute arises between you and Tercen regarding our handling of your User Personal Information, we will do our best to resolve it. You also have the right to complain to the [Data Protection Commission](https://www.dataprotection.ie/) in Ireland, where Tercen is established, or to the data protection authority in the country where you live. European users can find authority contacts on the [European Data Protection Board website](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en).
 
 ---
 
 ## Changes to our Privacy Statement
 
-Although most changes are likely to be minor, Tercen may change our Privacy Statement from time to time. We will provide notification to Users of material changes to this Privacy Statement through our Website at least 30 days prior to the change taking effect by posting a notice on our home page or sending email to the primary email address specified in your Tercen account. We will also update our Site Policy Project, which tracks all changes to this policy. For changes to this Privacy Statement that are not material changes or that do not affect your rights, we encourage Users to check our Site Policy Project frequently.
+Although most changes are likely to be minor, Tercen may change our Privacy Statement from time to time. We will provide notification to Users of material changes to this Privacy Statement through our Website at least 30 days prior to the change taking effect by posting a notice on our home page or sending email to the primary email address specified in your Tercen account. For changes to this Privacy Statement that are not material changes or that do not affect your rights, we encourage Users to check this Privacy Statement frequently.
 
 ---
 
