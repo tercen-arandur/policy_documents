@@ -2,7 +2,7 @@
 
 |Title|Revision|Date|
 |---|---|---|
-|Tercen Privacy Notice|1.0.1|30 September 2026|
+|Tercen Privacy Notice|1.1.0|[RELEASE DATE]|
 
 This is the privacy notice of Tercen Data Analytics Ltd.
 In this document the words “we”, “our”, “us”, or “Tercen” all refer to Tercen Data Analytics Ltd.
