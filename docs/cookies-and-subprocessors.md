@@ -57,5 +57,5 @@ We use Google Analytics as a third party analytics service, and to track our adv
 
 Pages at URLs that contain any of the following domains and paths (including any subdomains or sub-paths) on our sites may have analytics or other tracking code enabled. If you would like to prevent us from collecting information about your browsing activity on Tercen, you may use a tracking blocker such as Privacy Badger. or opt out of Google Analytics tracking.
 
-* <tercen.com>
-* <www.tercen.com>
+* `tercen.com`
+* `www.tercen.com`
