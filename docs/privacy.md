@@ -53,7 +53,7 @@ If you have a paid Account with us, we automatically collect certain information
 
 #### *Usage Information*
 
-If you’re accessing our Service or Website, we automatically collect the same basic information that most services collect, subject, where necessary, to your consent. This includes information about how you use the Service, such as the pages you view, the referring site, your IP address and session information, and the date and time of each request. This is information we collect from every visitor to the Website, whether they have an Account or not. This information may include User Personal information.
+If you’re accessing our Service or Website, we automatically collect the same basic information that most services collect, subject, where necessary, to your consent. This includes information about how you use the Service, such as the pages you view, the referring site, your IP address and session information, and the date and time of each request. This is information we collect from every visitor to the Website, whether they have an Account or not. This information may include User Personal Information.
 
 #### *Cookies and Similar Technologies Information*
 
@@ -61,7 +61,7 @@ As further described below, and subject, where applicable, to your consent, we a
 
 #### *Device Information*
 
-We may collect certain information about your device, such as its IP address, browser or client application information, language preference, operating system and application version, device type and ID, and device model and manufacturer. This information may include User Personal information.
+We may collect certain information about your device, such as its IP address, browser or client application information, language preference, operating system and application version, device type and ID, and device model and manufacturer. This information may include User Personal Information.
 
 ### Information we collect from third parties
 
@@ -101,7 +101,7 @@ We may use your information for the following purposes:
 
 * We use User Personal Information and other data to make recommendations for you, such as to suggest projects you may want to follow or contribute to. We learn from your public behaviour on Tercen (such as the projects you star) to determine your coding interests, and we recommend similar projects. These recommendations are automated decisions, but they have no legal impact on your rights.
 
-* We may use User Personal Information to invite you to take part in surveys, beta programs, or other research projects, subject, where necessary, to your consent .
+* We may use User Personal Information to invite you to take part in surveys, beta programs, or other research projects, subject, where necessary, to your consent.
 
 * We use Usage Information and Device Information to better understand how our Users use Tercen and to improve our Website and Service.
 
@@ -141,7 +141,7 @@ We may share your User Personal Information with third parties under one of the 
 
 ### With your consent
 
-We share your User Personal Information, if you consent, after letting you know what information will be shared, with whom, and why.* For example, if you join an Organization, you indicate your willingness to provide the owner of the Organization with the ability to view your activity in the Organization’s access log.
+We share your User Personal Information, if you consent, after letting you know what information will be shared, with whom, and why. For example, if you join an Organization, you indicate your willingness to provide the owner of the Organization with the ability to view your activity in the Organization’s access log.
 
 ### With service providers
 
@@ -189,7 +189,7 @@ Your User Personal Information associated with your content could be gathered by
 
 If you would like to compile Tercen data, you must comply with our Terms of Service regarding scraping and privacy, and you may only use any public-facing User Personal Information you gather for the purpose for which our user authorized it. For example, where a Tercen user has made an email address public-facing for the purpose of identification and attribution, do not use that email address for commercial advertising. We expect you to reasonably secure any User Personal Information you have gathered from Tercen, and to respond promptly to complaints, removal requests, and “do not contact” requests from Tercen or Tercen users.
 
-Similarly, projects on Tercen may include publicly available User Personal Information collected as part of the collaborative process. If you have a complaint about any User Personal Information on Tercen, please contact <support@tercen.com>
+Similarly, projects on Tercen may include publicly available User Personal Information collected as part of the collaborative process. If you have a complaint about any User Personal Information on Tercen, please contact <support@tercen.com>.
 
 We do not pre-screen your content, but we have the right to refuse, alter, or remove any User-Generated Content that, in our sole discretion, violates our terms or policies.
 
@@ -215,9 +215,9 @@ If you create a Tercen Pages website, it is your responsibility to post a privac
 
 ## How you can access and control the information we collect
 
-If you’re already a Tercen user, you may access, update, alter, or delete your basic user profile information by editing your user profile or contacting Tercen Support or Tercen Premium Support. You can control the information we collect about you by limiting what information is in your profile, by keeping your information current, or by contacting <support@tercen.com>
+If you’re already a Tercen user, you may access, update, alter, or delete your basic user profile information by editing your user profile or contacting Tercen Support or Tercen Premium Support. You can control the information we collect about you by limiting what information is in your profile, by keeping your information current, or by contacting <support@tercen.com>.
 
-If Tercen processes information about you, such as information Tercen receives from third parties, and you do not have an account, then you may, subject to applicable law, access, update, alter, delete, or object to the processing of your personal information by contacting <support@tercen.com>
+If Tercen processes information about you, such as information Tercen receives from third parties, and you do not have an account, then you may, subject to applicable law, access, update, alter, delete, or object to the processing of your personal information by contacting <support@tercen.com>.
 
 ### Data portability
 
@@ -269,7 +269,7 @@ Tercen enforces a written security information program. Our program:
 
 In the event of a data breach that affects your User Personal Information, we will act promptly to mitigate the impact of a breach and notify any affected Users without undue delay.
 
-Transmission of data on Tercen is encrypted using SSH, HTTPS (TLS), and  Project content is encrypted at rest. No method of transmission, or method of electronic storage, is 100% secure but Tercen uses industry leading Cloud Service providers with multiple security and risk mitigation strategies to protect your data..
+Transmission of data on Tercen is encrypted using SSH, HTTPS (TLS), and  Project content is encrypted at rest. No method of transmission, or method of electronic storage, is 100% secure but Tercen uses industry leading Cloud Service providers with multiple security and risk mitigation strategies to protect your data.
 
 ---
 
@@ -295,7 +295,7 @@ In particular:
 
 We use your email address to communicate with you, if you’ve said that’s okay, **and only for the reasons you’ve said that’s okay.** For example, if you contact our Support team with a request, we respond to you via email. You have a lot of control over how your email address is used and shared on and through Tercen. You may manage your communication preferences in your user profile.
 
-By design, the Project version control system associates many actions with a User’s email address, such as commit messages. We are not able to change many aspects of the Project system. This will not change how we contact you, but it will affect how others see you. We set current Users’ email address private by default*
+By design, the Project version control system associates many actions with a User’s email address, such as commit messages. We are not able to change many aspects of the Project system. This will not change how we contact you, but it will affect how others see you. We set current Users’ email address private by default.
 
 Depending on your email settings, Tercen may occasionally send notification emails about changes in a Project you’re watching, new features, requests for feedback, important policy changes, or to offer customer support. We also send marketing emails, based on your choices and in accordance with applicable laws and regulations. There’s an “unsubscribe” link located at the bottom of each of the marketing emails we send you. Please note that you cannot opt out of receiving important communications from us, such as emails from our Support team or system emails, but you can configure your notifications settings in your profile to opt out of other communications.
 
@@ -305,7 +305,7 @@ Our emails may contain a pixel tag, which is a small, clear image that can tell 
 
 ## Resolving complaints
 
-If you have concerns about the way Tercen is handling your User Personal Information, please let us know immediately. We want to help. You may *email us directly at <support@tercen.com> with the subject line “Privacy Concerns.” We will respond promptly — within 45 days at the latest.
+If you have concerns about the way Tercen is handling your User Personal Information, please let us know immediately. We want to help. You may email us directly at <support@tercen.com> with the subject line “Privacy Concerns.” We will respond promptly — within 45 days at the latest.
 
 You may also contact our Data Protection Officer directly at the following address.
 
@@ -342,4 +342,4 @@ This Privacy Statement is licensed under this [Creative Commons Zero license](po
 
 ## Contacting Tercen
 
-Questions regarding Tercen’s Privacy Statement or information practices should be directed to <support@tercen.com>
+Questions regarding Tercen’s Privacy Statement or information practices should be directed to <support@tercen.com>.

@@ -158,11 +158,11 @@ We will terminate the Accounts of repeat infringers of this policy.
 
 ## **G. Intellectual Property Notice**
 
-**Short version:** *We own the service and all of our content. In order for you to use our content, we give you certain rights to it, but you may only use our content in the way we have allowed*
+**Short version:** *We own the service and all of our content. In order for you to use our content, we give you certain rights to it, but you may only use our content in the way we have allowed.*
 
 ### 1. Tercen’s Rights to Content
 
-Tercen and our licensors, vendors, agents, and/or our content providers retain ownership of all intellectual property rights of any kind related to the Website and Service. We reserve all rights that are not expressly granted to you under this Agreement or by law. The look and feel of the Website and Service is **copyright © Tercen Data Analytics Ltd.** All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML/CSS, Javascript, or visual design elements or concepts without express written permission from Tercen.
+Tercen and our licensors, vendors, agents, and/or our content providers retain ownership of all intellectual property rights of any kind related to the Website and Service. We reserve all rights that are not expressly granted to you under this Agreement or by law. The look and feel of the Website and Service is **copyright © Tercen Data Analytics Ltd.** All rights reserved. You may not duplicate, copy, or reuse any portion of the HTML/CSS, JavaScript, or visual design elements or concepts without express written permission from Tercen.
 
 ### 2. Tercen Trademarks and Logos
 
@@ -174,7 +174,7 @@ This Agreement is licensed under this [Creative Commons Zero license](policy-lic
 
 ## **H. API Terms**
 
-**Short version:** *You agree to these Terms of Service, plus this Section H, when using any of Tercen’s APIs (Application Provider Interface), including use of the API through a third party product that accesses Tercen.*
+**Short version:** *You agree to these Terms of Service, plus this Section H, when using any of Tercen’s APIs (Application Programming Interface), including use of the API through a third party product that accesses Tercen.*
 
 Abuse or excessively frequent requests to Tercen via the API may result in the temporary or permanent suspension of your Account’s access to the API. Tercen, in our sole discretion, will determine abuse or excessive usage of the API. We will make a reasonable attempt to warn you via email prior to suspension.
 
@@ -188,7 +188,7 @@ Tercen may offer subscription-based access to our API for those Users who requir
 
 ## **I. Tercen Additional Product Terms**
 
-**Short version:* *You need to follow certain specific terms and conditions for Tercen’s various features and products, and you agree to the Supplemental Terms and Conditions when you agree to this Agreement.*
+**Short version:** *You need to follow certain specific terms and conditions for Tercen’s various features and products, and you agree to the Supplemental Terms and Conditions when you agree to this Agreement.*
 
 Some Service features may be subject to additional terms specific to that feature or product as set forth in the Tercen Additional Product Terms. By accessing or using the Services, you also agree to the Tercen Additional Product Terms.
 
@@ -206,7 +206,7 @@ As a user of Beta Previews, you may get access to special information that isn�
 
 **Confidentiality Obligations.** You agree that any non-public Beta Preview information we give you, such as information about a private Beta Preview, will be considered Tercen’s confidential information (collectively, “Confidential Information”), regardless of whether it is marked or identified as such. You agree to only use such Confidential Information for the express purpose of testing and evaluating the Beta Preview (the “Purpose”), and not for any other purpose. You should use the same degree of care as you would with your own confidential information, but no less than reasonable precautions to prevent any unauthorized use, disclosure, publication, or dissemination of our Confidential Information. You promise not to disclose, publish, or disseminate any Confidential Information to any third party, unless we don’t otherwise prohibit or restrict such disclosure (for example, you might be part of a Tercen-organized group discussion about a private Beta Preview feature).
 
-**Exceptions.** Confidential Information will not include information that is: (a) or becomes publicly available without breach of this Agreement through no act or inaction on your part (such as when a private Beta Preview becomes a public Beta Preview); (b) known to you before we disclose it to you; (c) independently developed by you without breach of any confidentiality obligation to us or any third party; or (d) disclosed with permission from Tercen. You will not violate the terms of this Agreement if you are required to disclose Confidential Information pursuant to operation of law, provided Tercen has been given reasonable advance written notice to object, unless prohibited by law.
+**Exceptions.** Confidential Information will not include information that is: (a) is or becomes publicly available without breach of this Agreement through no act or inaction on your part (such as when a private Beta Preview becomes a public Beta Preview); (b) known to you before we disclose it to you; (c) independently developed by you without breach of any confidentiality obligation to us or any third party; or (d) disclosed with permission from Tercen. You will not violate the terms of this Agreement if you are required to disclose Confidential Information pursuant to operation of law, provided Tercen has been given reasonable advance written notice to object, unless prohibited by law.
 
 ### 3. Feedback
 
@@ -240,11 +240,11 @@ Our pricing and payment terms are available at Tercen.com/pricing. If you agree 
 
 ### 4. Authorization
 
-By agreeing to these Terms, you are giving us permission to charge your on-file credit card, * or other approved methods of payment for fees that you authorize for Tercen.
+By agreeing to these Terms, you are giving us permission to charge your on-file credit card or other approved methods of payment for fees that you authorize for Tercen.
 
 ### 5. Responsibility for Payment
 
-You are responsible for all fees, including taxes, associated with your use of the Service. By using the Service, you agree to pay Tercen any charge incurred in connection with your use of the Service. If you dispute the matter contact<support@tercen.com>. You are responsible for providing us with a valid means of payment for paid Accounts. Free Accounts are not required to provide payment information.
+You are responsible for all fees, including taxes, associated with your use of the Service. By using the Service, you agree to pay Tercen any charge incurred in connection with your use of the Service. If you dispute the matter contact <support@tercen.com>. You are responsible for providing us with a valid means of payment for paid Accounts. Free Accounts are not required to provide payment information.
 
 ## **L. Cancellation and Termination**
 
@@ -252,13 +252,13 @@ You are responsible for all fees, including taxes, associated with your use of t
 
 ### 1. Account Cancellation
 
-Your rights to cancellation are set out in the European Union (Consumer Information, Cancellation and Other Rights) Regulations 2013
+Your rights to cancellation are set out in the European Union (Consumer Information, Cancellation and Other Rights) Regulations 2013.
 
 It is your responsibility to properly cancel your Account with Tercen. You can cancel your Account at any time by going into your Settings in the global navigation bar at the top of the screen. The Account screen provides a simple, no questions asked cancellation link. We are not able to cancel Accounts in response to an email or phone request.
 
 ### 2. Upon Cancellation
 
-We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements, but barring legal requirements, we will delete your full profile and the Content of your Projects within 90 days of cancellation or termination (though some information may remain in encrypted backups). This information can not be recovered once your Account is cancelled.
+We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements, but barring legal requirements, we will delete your full profile and the Content of your Projects within 90 days of cancellation or termination (though some information may remain in encrypted backups). This information cannot be recovered once your Account is cancelled.
 
 We will not delete Content that you have contributed to other Users’ Projects or that other Users have forked.
 
@@ -348,7 +348,7 @@ We reserve the right at any time and from time to time to modify or discontinue,
 
 ### 1. Governing Law
 
-Except to the extent applicable law provides otherwise, this Agreement between you and Tercen and any access to or use of the Website or the Service are governed by the laws Ireland and of the European Union (EU), without regard to conflict of law provisions. You and Tercen agree to submit to the exclusive jurisdiction and venue of the courts located in Ireland.
+Except to the extent applicable law provides otherwise, this Agreement between you and Tercen and any access to or use of the Website or the Service are governed by the laws of Ireland and of the European Union (EU), without regard to conflict of law provisions. You and Tercen agree to submit to the exclusive jurisdiction and venue of the courts located in Ireland.
 
 Disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [S.I. No. 343 of 2015](https://www.irishstatutebook.ie/eli/2015/si/343/made/en/print). The European Commission lists approved ADR bodies at [Consumer Redress in the EU](https://consumer-redress.ec.europa.eu/index_en).
 
