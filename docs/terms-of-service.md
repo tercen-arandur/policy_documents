@@ -12,7 +12,7 @@
 
 1. An “Account” represents your legal relationship with Tercen. A “User Account” represents an individual User’s authorization to log in to and use the Service and serves as a User’s identity on Tercen. “Organizations” are shared workspaces that may be associated with a single entity or with one or more Users where multiple Users can collaborate across many projects at once. A User Account can be a member of any number of Organizations.
 
-2. The “Agreement” refers, collectively, to all the terms, conditions, notices contained or referenced in this document (the “Terms of Service” or the “Terms”) and all other operating rules, policies (including the Tercen Privacy Statement, available at Tercen.com/site/privacy) and procedures that we may publish from time to time on the Website.
+2. The “Agreement” refers, collectively, to all the terms, conditions, notices contained or referenced in this document (the “Terms of Service” or the “Terms”) and all other operating rules, policies (including the Tercen Privacy Statement, available at policies.tercen.com/privacy/) and procedures that we may publish from time to time on the Website.
 
 3. “Beta Previews” mean software, services, or features identified as alpha, beta, preview, early access, or evaluation, or words or phrases with similar meanings.
 
@@ -170,7 +170,7 @@ If you’d like to use Tercen’s trademarks, you must follow all of our tradema
 
 ### 3. License to Tercen Policies
 
-This Agreement is licensed under this Creative Commons Zero license.
+This Agreement is licensed under this [Creative Commons Zero license](policy-licence.md).
 
 ## **H. API Terms**
 
@@ -350,7 +350,7 @@ We reserve the right at any time and from time to time to modify or discontinue,
 
 Except to the extent applicable law provides otherwise, this Agreement between you and Tercen and any access to or use of the Website or the Service are governed by the laws Ireland and of the European Union (EU), without regard to conflict of law provisions. You and Tercen agree to submit to the exclusive jurisdiction and venue of the courts located in Ireland.
 
-Disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [EU Regulation](http://ec.europa.eu/consumers/odr/)
+Disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [S.I. No. 343 of 2015](https://www.irishstatutebook.ie/eli/2015/si/343/made/en/print). The European Commission lists approved ADR bodies at [Consumer Redress in the EU](https://consumer-redress.ec.europa.eu/index_en).
 
 ### 2. Non-Assignability
 

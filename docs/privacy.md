@@ -18,7 +18,7 @@ Our registered office is at: **Tercen Data Analytics Ltd. c/o David Breen & Comp
 This is a notice to inform you of our policy about all information that we record about you. It sets out the conditions under which we may process any information that we collect from you, or that you provide to us. It covers information that could identify you (“personal information”) and information that could not. In the context of the law and this notice, “process” means collect, store, transfer, use or otherwise act on information.
 We take seriously the protection of your privacy and confidentiality. We understand that all visitors to our website are entitled to know that their personal data will not be used for any purpose unintended by them, and will not accidentally fall into the hands of a third party.
 Our policy complies with the Data Protection Act 2018 (Act) accordingly incorporating the EU General Data Protection Regulation (GDPR).
-The law requires us to tell you about your rights and our obligations to you in regards to the processing and control of your personal data. We do this now, by requesting that you read the information provided at [Know Your Privacy Rights](https://www.knowyourprivacyrights.org)
+The law requires us to tell you about your rights and our obligations to you in regards to the processing and control of your personal data. We do this now, by requesting that you read the information provided by the Data Protection Commission at [Your rights under the GDPR](https://www.dataprotection.ie/en/individuals/rights-individuals-under-general-data-protection-regulation).
 Except as set out below, we do not share, or sell, or disclose to a third party, any information collected through our website.
 
 ---
@@ -336,7 +336,7 @@ Although most changes are likely to be minor, Tercen may change our Privacy Stat
 
 ## License
 
-This Privacy Statement is licensed under this Creative Commons Zero license.
+This Privacy Statement is licensed under this [Creative Commons Zero license](policy-licence.md).
 
 ---
 
