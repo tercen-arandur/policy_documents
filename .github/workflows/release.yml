@@ -1,7 +1,6 @@
 # Publishes the site to https://policies.tercen.com when a release tag (1.2.3) is pushed, and at no
 # other time. GitHub Pages is deployed from a workflow artifact; nothing is pushed to gh-pages.
-# Staged here for the publisher: it belongs at .github/workflows/release.yml, and replaces
-# docs_ci.yaml and docs_release.yaml.
+# It replaces the former docs_ci.yaml and docs_release.yaml workflows.
 name: Release
 
 on:

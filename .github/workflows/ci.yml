@@ -1,5 +1,4 @@
 # Runs on every pull request. Each job is one check; its name is the check name GitHub shows.
-# Staged here for the publisher: it belongs at .github/workflows/ci.yml.
 name: CI
 
 on:
