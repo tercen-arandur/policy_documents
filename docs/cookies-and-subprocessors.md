@@ -2,7 +2,7 @@
 
 |Title|Revision|Date|
 |---|---|---|
-|Tercen Sub-processors and Cookies Policy|1.0.0|19 May 2020|
+|Tercen Sub-processors and Cookies Policy|1.0.1|30 September 2026|
 
 ## In this article
 

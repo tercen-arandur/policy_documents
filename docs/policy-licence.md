@@ -3,7 +3,7 @@
 
 |Title|Revision|Date|
 |---|---|---|
-|Policy Licence|1.0.0|19 May 2020|
+|Policy Licence|1.0.1|30 September 2026|
 
 Tercen policy documents are issued under a creative commons licence.
 
