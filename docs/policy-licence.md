@@ -1,9 +1,9 @@
 
-# title: Policy Document Licence
+# Policy Document Licence
 
 |Title|Revision|Date|
 |---|---|---|
-|Policy Licence|1.0.0|19 May 2020|
+|Policy Licence|1.0.1|[RELEASE DATE]|
 
 Tercen policy documents are issued under a creative commons licence.
 
