@@ -219,7 +219,7 @@ Generally, Tercen retains User Personal Information for as long as your account 
 
 If you would like to cancel your account or delete your User Personal Information, you may do so in your user profile. We retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements, but barring legal requirements, we will delete your full profile (within reason) within 90 days of your request. You may contact <support@tercen.com> to request the erasure of the data we process on the basis of consent within 30 days.
 
-After an account has been deleted, certain data, such as contributions to other Users’ Projects, will remain. However, we will delete or de-identify your User Personal Information, including your username and email address, in that data.
+After an account has been deleted, certain data, such as contributions to other Users’ Projects, will remain. However, we will delete or de-identify your User Personal Information, including your username and email address, in that data. [TK: confirm the Service deletes or de-identifies the username and email address in a deleted account’s contributions to other Users’ Projects.]
 
 ---
 
