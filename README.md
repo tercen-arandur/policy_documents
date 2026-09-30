@@ -37,5 +37,17 @@ else, or no `from`, links to `https://www.tercen.com/`, and so does the page wit
 
 ## Publishing
 
-A release tag (`1.2.3`) publishes the site through GitHub Pages; nothing else does. See
-`ci-staging/README.md` until the workflows there are moved into `.github/workflows/`.
+A release tag (`1.2.3`) publishes the site; nothing else does. The tag runs
+`.github/workflows/release.yml`, which repeats the pull-request checks (`mkdocs build --strict`,
+`npm test`, `npm run links`) and, only if they pass, deploys `site/` to GitHub Pages through
+`actions/deploy-pages`. Nothing is pushed to a `gh-pages` branch. Every pull request runs the same
+checks in `.github/workflows/ci.yml`.
+
+Repository settings the release needs (the maintainer's, not files in this repository):
+
+- **Pages → Source:** GitHub Actions.
+- **Pages → Custom domain:** `policies.tercen.com`, with HTTPS enforced. `docs/CNAME` names the domain
+  too, but an artifact deployment takes it from this setting.
+- **Environments → github-pages → Deployment branches and tags:** allow tags matching `*.*.*`. By
+  default the environment accepts only the default branch, and a tag deployment is refused.
+- **DNS:** `policies.tercen.com` CNAME to `tercen-arandur.github.io`.
