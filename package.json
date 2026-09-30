@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.js",
     "links": "linkinator site --recurse --skip \"^https?://(?!localhost[:/])\" --verbosity info",
     "links:external": "linkinator site --recurse --skip \"^https://policies\\\\.tercen\\\\.com/\" --verbosity error"
   },
