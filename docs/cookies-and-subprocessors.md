@@ -18,10 +18,8 @@ When we share your information with third party sub-processors, such as our vend
 
 |Name of Sub-processor|Description of Processing|Location of Processing|
 |---|---|---|
-|Braintree (PayPal)|Subscription credit card payment processor|United States|
 |Google Analytics|Website analytics and performance|United States|
 |Copper.com|Customer relations management|United States|
-|Stripe|Payment provider|Ireland|
 |Heap|Website Analytics|United States|
 
 When we bring on a new sub-processor who handles our Users’ Personal Information, or remove a sub-processor, or we change how we use a sub-processor, we will update this page. If you have questions or concerns about a new sub-processor, we’d be happy to help.
@@ -51,11 +49,11 @@ If you have not enabled DNT on a browser that supports it, cookies on some parts
 
 ## Google Analytics
 
-We use Google Analytics as a third party analytics service, and to track our advertising campaigns on third party websites and services. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use Tercen. This helps us evaluate our users’ use of Tercen; compile statistical reports on activity; and improve our content and website performance. Google provides further information about its own [privacy practices](https://policies.google.com/privacy) and offers a [browser add-on to opt out of Google Analytics tracking](https://tools.google.com/dlpage/gaoptout).
+We use Google Analytics as a third party analytics service, and to track our advertising campaigns on third party websites and services. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use Tercen. This helps us evaluate our users’ use of Tercen; compile statistical reports on activity; and improve our content and website performance. Google provides further information about its own privacy practices and offers a browser add-on to opt out of Google Analytics tracking.
 
 ## Pages on Tercen where analytics may be enabled
 
-Pages at URLs that contain any of the following domains and paths (including any subdomains or sub-paths) on our sites may have analytics or other tracking code enabled. If you would like to prevent us from collecting information about your browsing activity on Tercen, you may use a tracking blocker such as [Privacy Badger](https://privacybadger.org/) or [opt out of Google Analytics tracking](https://tools.google.com/dlpage/gaoptout).
+Pages at URLs that contain any of the following domains and paths (including any subdomains or sub-paths) on our sites may have analytics or other tracking code enabled. If you would like to prevent us from collecting information about your browsing activity on Tercen, you may use a tracking blocker such as [Privacy Badger](https://privacybadger.org/) or opt out of Google Analytics tracking.
 
 * `tercen.com`
 * `www.tercen.com`

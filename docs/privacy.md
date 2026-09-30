@@ -37,9 +37,7 @@ We require some basic information at the time of account creation. When you crea
 
 #### *Payment Information*
 
-If you sign on to a paid Account with us, we collect your full name, address, and credit card information. Please note, Tercen does not process or store your credit card information, but our third-party payment processor does.
-
-Further information about how your privacy is protected by our payment partner can be found here. [Stripe Privacy Policy](https://stripe.com/ie/privacy)
+If you sign on to a paid Account with us, we collect the billing details we need to invoice you: your full name, billing address and company details. Tercen does not collect credit card information.
 
 #### *Profile Information*
 
@@ -145,7 +143,7 @@ We share your User Personal Information, if you consent, after letting you know 
 
 ### With service providers
 
-We share User Personal Information with a limited number of service providers who process it on our behalf to provide or improve our Service, and who have agreed to privacy restrictions similar to the ones in our Privacy Statement by signing data protection agreements or making similar commitments. Our service providers perform payment processing, customer support ticketing, network data transmission, security, and other similar services. While Tercen processes all User Personal Information in the European Union.
+We share User Personal Information with a limited number of service providers who process it on our behalf to provide or improve our Service, and who have agreed to privacy restrictions similar to the ones in our Privacy Statement by signing data protection agreements or making similar commitments. Our service providers perform customer support ticketing, network data transmission, security, and other similar services. While Tercen processes all User Personal Information in the European Union.
 
 ### For security purposes
 
@@ -175,8 +173,6 @@ Tercen employees do not access private Projects unless required to for security 
 
 If your Project is public, anyone may view its contents. If you include private, confidential or Sensitive Personal Information, such as email addresses or passwords, in your public Project, that information may be indexed by search engines or used by third parties.
 
-Please see more about User Personal Information in public Projects.
-
 ### User Developed Code or Operators
 
 All code developed by users is available publicly on Tercen. If you have developed code which gathers or transmits data during runtime then you alone are responsible for ensuring your code complies with European Legislation and the terms set out in the Tercen Privacy Policy. This specifically includes your responsibility to inform other users of the data gathered and seek their consent for their data to be collected.  
@@ -197,7 +193,7 @@ You have legal responsibility for the data you make public on Tercen. By using o
 
 ### Organizations
 
-You may indicate, through your actions on Tercen, that you are willing to share your User Personal Information. If you collaborate on or become a member of an Organization, then its Account owners may receive your User Personal Information. When you accept an invitation to an Organization, you will be notified of the types of information owners may be able to see (for more information, see About Organization Membership). If you accept an invitation to an Organization with a verified domain, then the owners of that Organization will be able to see your full email address(es) within that Organization’s verified domain(s).
+You may indicate, through your actions on Tercen, that you are willing to share your User Personal Information. If you collaborate on or become a member of an Organization, then its Account owners may receive your User Personal Information. When you accept an invitation to an Organization, you will be notified of the types of information owners may be able to see. If you accept an invitation to an Organization with a verified domain, then the owners of that Organization will be able to see your full email address(es) within that Organization’s verified domain(s).
 
 Please note, Tercen may share your username, Usage Information, and Device Information with the owner of the Organization you are a member of, to the extent that your User Personal Information is provided only to investigate or respond to a security incident that affects or compromises the security of that particular Organization.
 

@@ -218,7 +218,7 @@ We’re always trying to improve our products and services, and your feedback as
 
 ### 1. Pricing
 
-Our pricing and payment terms are available at Tercen.com/pricing. If you agree to a subscription price, that will remain your price for the duration of the payment term; however, prices are subject to change at the end of a payment term.
+If you agree to a subscription price, that will remain your price for the duration of the payment term; however, prices are subject to change at the end of a payment term.
 
 ### 2. Upgrades, Downgrades, and Changes
 
@@ -240,7 +240,7 @@ Our pricing and payment terms are available at Tercen.com/pricing. If you agree 
 
 ### 4. Authorization
 
-By agreeing to these Terms, you are giving us permission to charge your on-file credit card or other approved methods of payment for fees that you authorize for Tercen.
+You agree to pay fees as invoiced by Tercen, by the payment methods stated on the invoice or otherwise approved by Tercen.
 
 ### 5. Responsibility for Payment
 
@@ -350,7 +350,7 @@ We reserve the right at any time and from time to time to modify or discontinue,
 
 Except to the extent applicable law provides otherwise, this Agreement between you and Tercen and any access to or use of the Website or the Service are governed by the laws of Ireland and of the European Union (EU), without regard to conflict of law provisions. You and Tercen agree to submit to the exclusive jurisdiction and venue of the courts located in Ireland.
 
-Disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [S.I. No. 343 of 2015](https://www.irishstatutebook.ie/eli/2015/si/343/made/en/print). The European Commission lists approved ADR bodies at [Consumer Redress in the EU](https://consumer-redress.ec.europa.eu/index_en).
+Disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [S.I. No. 343 of 2015](https://www.irishstatutebook.ie/eli/2015/si/343). The European Commission lists approved ADR bodies at [Consumer Redress in the EU](https://consumer-redress.ec.europa.eu/index_en).
 
 ### 2. Non-Assignability
 
