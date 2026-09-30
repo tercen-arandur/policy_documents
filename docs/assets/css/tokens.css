@@ -1,0 +1,182 @@
+/* Tercen design tokens: copied from tercen/tercen-style dist/tercen-tokens.css at 0daaef4 (the same file tercen-arandur/lattin uses). Do not edit here: copy it again when tercen-style changes. */
+
+:root {
+  --font-family: 'Fira Sans', sans-serif;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  --elevation-none: 0;
+  --elevation-low: 1;
+  --elevation-medium: 4;
+  --elevation-high: 8;
+
+  --line-weight-subtle: 1px;
+  --line-weight-standard: 1.5px;
+  --line-weight-emphasis: 2px;
+  --line-weight-viz-grid: 1px;
+  --line-weight-viz-axis: 2px;
+  --line-weight-viz-data: 2px;
+  --line-weight-viz-highlight: 3px;
+
+  --control-height-sm: 28px;
+  --control-height-md: 36px;
+  --control-height-lg: 44px;
+
+  --button-padding-h: 16px;
+  --button-padding-v: 8px;
+  --button-border-radius: 8px;
+  --button-border-width: 1.5px;
+
+  --icon-size-sm: 16px;
+  --icon-size-md: 24px;
+  --icon-size-lg: 32px;
+
+  --window-toolbar-height: 48px;
+  --window-toolbar-button-size: 32px;
+  --window-toolbar-button-icon-size: 16px;
+  --window-toolbar-button-radius: 8px;
+  --window-toolbar-button-border-width: 1px;
+  --window-toolbar-gap: 8px;
+  --window-tab-height: 28px;
+  --window-tab-strip-height: 32px;
+  --window-tab-max-width: 220px;
+  --window-tab-corner-radius: 6px;
+  --window-tab-border-width: 2px;
+  --window-tab-button-size: 20px;
+  --window-tab-button-icon-size: 11px;
+  --window-tab-icon-size: 8px;
+  --window-tab-icon-radius: 2px;
+  --window-tab-font-size: 11px;
+  --window-body-state-icon-size: 32px;
+  --window-body-state-max-width: 280px;
+  --window-spinner-size: 28px;
+  --window-spinner-stroke-width: 3px;
+  --window-min-widget-width: 208px;
+  --window-header-chrome-height: 36px;
+  --window-avatar-size: 28px;
+  --window-brand-mark-max-height: 28px;
+  --window-dropdown-width: 220px;
+  --window-focus-ring-width: 2px;
+  --window-focus-ring-offset: 2px;
+
+  --text-headline-large-size: 24px;
+  --text-headline-large-weight: 600;
+  --text-headline-large-line-height: 1.25;
+  --text-headline-medium-size: 20px;
+  --text-headline-medium-weight: 600;
+  --text-headline-medium-line-height: 1.25;
+  --text-headline-small-size: 16px;
+  --text-headline-small-weight: 600;
+  --text-headline-small-line-height: 1.25;
+  --text-body-large-size: 16px;
+  --text-body-large-weight: 400;
+  --text-body-large-line-height: 1.5;
+  --text-body-medium-size: 14px;
+  --text-body-medium-weight: 400;
+  --text-body-medium-line-height: 1.5;
+  --text-body-small-size: 12px;
+  --text-body-small-weight: 400;
+  --text-body-small-line-height: 1.5;
+  --text-label-large-size: 14px;
+  --text-label-large-weight: 500;
+  --text-label-large-line-height: 1.5;
+  --text-label-small-size: 12px;
+  --text-label-small-weight: 500;
+  --text-label-small-line-height: 1.5;
+  --text-section-header-size: 12px;
+  --text-section-header-weight: 600;
+  --text-section-header-line-height: 1.25;
+  --text-section-header-letter-spacing: 0.5px;
+  --text-micro-size: 8px;
+  --text-micro-weight: 400;
+  --text-micro-line-height: 1.5;
+}
+
+[data-theme="light"], :root {
+  --color-primary: #1E40AF;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #DBEAFE;
+  --color-on-primary-container: #1E3A8A;
+  --color-primary-fixed: #EFF6FF;
+  --color-tertiary: #6D28D9;
+  --color-error: #B91C1C;
+  --color-on-error: #FFFFFF;
+  --color-error-container: #FEE2E2;
+  --color-surface: #FFFFFF;
+  --color-on-surface: #111827;
+  --color-on-surface-variant: #374151;
+  --color-surface-container-low: #F9FAFB;
+  --color-surface-container: #F3F4F6;
+  --color-surface-container-high: #E5E7EB;
+  --color-outline: #D1D5DB;
+  --color-outline-variant: #E5E7EB;
+  --color-shadow: #000000;
+  --color-scrim: #000000;
+  --color-on-surface-muted: #6B7280;
+  --color-on-surface-disabled: #9CA3AF;
+  --color-warning: #B45309;
+  --color-on-warning: #FFFFFF;
+  --color-warning-container: #FEF3C7;
+  --color-on-warning-container: #B45309;
+  --color-success: #047857;
+  --color-on-success: #FFFFFF;
+  --color-success-container: #D1FAE5;
+  --color-on-success-container: #047857;
+  --color-info: #0E7490;
+  --color-on-info: #FFFFFF;
+  --color-info-container: #CFFAFE;
+  --color-on-info-container: #0E7490;
+  --color-link: #2563EB;
+  --color-link-hover: #1E40AF;
+  --color-text-tertiary: #4B5563;
+}
+
+[data-theme="dark"] {
+  --color-primary: #14B8A6;
+  --color-on-primary: #FFFFFF;
+  --color-primary-container: #153D47;
+  --color-on-primary-container: #2DD4BF;
+  --color-primary-fixed: #122E35;
+  --color-tertiary: #A78BFA;
+  --color-error: #F87171;
+  --color-on-error: #FFFFFF;
+  --color-error-container: #450A0A;
+  --color-surface: #111827;
+  --color-on-surface: #F9FAFB;
+  --color-on-surface-variant: #E5E7EB;
+  --color-surface-container-low: #111827;
+  --color-surface-container: #1F2937;
+  --color-surface-container-high: #1F2937;
+  --color-outline: #374151;
+  --color-outline-variant: #374151;
+  --color-shadow: #000000;
+  --color-scrim: #000000;
+  --color-on-surface-muted: #6B7280;
+  --color-on-surface-disabled: #4B5563;
+  --color-warning: #FBBF24;
+  --color-on-warning: #111827;
+  --color-warning-container: #451A03;
+  --color-on-warning-container: #FBBF24;
+  --color-success: #10B981;
+  --color-on-success: #111827;
+  --color-success-container: #14532D;
+  --color-on-success-container: #4ADE80;
+  --color-info: #60A5FA;
+  --color-on-info: #111827;
+  --color-info-container: #083344;
+  --color-on-info-container: #67E8F9;
+  --color-link: #60A5FA;
+  --color-link-hover: #3B82F6;
+  --color-text-tertiary: #9CA3AF;
+}
