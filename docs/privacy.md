@@ -237,7 +237,7 @@ That said, the email address you have supplied via your Project commit settings 
 
 Tercen uses cookies to make interactions with our service easy and meaningful. Cookies are small text files that websites often store on computer hard drives or mobile devices of visitors. We use cookies (and similar technologies, like HTML5 localStorage) to keep you logged in, remember your preferences, and provide information for future development of Tercen. For security purposes, we use cookies to identify a device. By using our Website, you agree that we can place these types of cookies on your computer or device. If you disable your browser or device’s ability to accept these cookies, you will not be able to log in or use Tercen’s services.
 
-We provide a [web page on cookies and tracking](cookies-and-subprocesses.md) that describes the cookies we set, the needs we have for those cookies, and the types of cookies they are (temporary or permanent). It also lists our third-party analytics providers and other service providers, and details exactly which parts of our Website we permit them to track.
+We provide a [web page on cookies and tracking](cookies-and-subprocessors.md) that describes the cookies we set, the needs we have for those cookies, and the types of cookies they are (temporary or permanent). It also lists our third-party analytics providers and other service providers, and details exactly which parts of our Website we permit them to track.
 
 ### Tracking and analytics
 
