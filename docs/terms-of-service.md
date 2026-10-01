@@ -2,7 +2,7 @@
 
 |title|date|version|
 |-----|-----|-----|
-|Tercen Terms of Service|[RELEASE DATE]|1.1.0|
+|Tercen Terms of Service|2026-10-01|1.1.0|
 
 ---
 
