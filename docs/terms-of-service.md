@@ -252,7 +252,7 @@ If you agree to a subscription price, that will remain your price for the durati
 
 * We will immediately bill you when you upgrade from the free plan to any paying plan.
 
-* If you change from a monthly billing plan to a yearly billing plan, Tercen will bill you for a full year at the next monthly billing date.
+* If you change from one billing plan to another, Tercen will bill you at the next billing date.
 
 * If you upgrade to a higher level of service, we will bill you for the upgraded plan immediately.
 
@@ -260,7 +260,7 @@ If you agree to a subscription price, that will remain your price for the durati
 
 ### 3. Billing Schedule; No Refunds
 
-**Payment Based on Plan.** For monthly or yearly payment plans, the Service is billed in advance on a monthly or yearly basis respectively and is non-refundable. There will be no refunds or credits for partial months of service, downgrade refunds, or refunds for months unused with an open Account; however, the service will remain active for the length of the paid billing period. In order to treat everyone equally, no exceptions will be made.
+**Payment Based on Plan.** For payment plans, the Service is billed in advance and is non-refundable. There will be no refunds or credits for partial billing periods of service, downgrade refunds, or refunds for unused billing periods with an open Account; however, the service will remain active for the length of the paid billing period. In order to treat everyone equally, no exceptions will be made.
 
 **Payment Based on Usage.** Some Service features are billed based on your usage. A limited quantity of these Service features may be included in your plan for a limited term without additional charge. If you choose to purchase paid Service features beyond the quantity included in your plan, you pay for those Service features based on your actual usage in the preceding month. Monthly payment for these purchases will be charged on a periodic basis in arrears.
 
@@ -376,7 +376,7 @@ We reserve the right at any time and from time to time to modify or discontinue,
 
 Except to the extent applicable law provides otherwise, this Agreement between you and Tercen and any access to or use of the Website or the Service are governed by the laws of Ireland and of the European Union (EU), without regard to conflict of law provisions. You and Tercen agree to submit to the exclusive jurisdiction and venue of the courts located in Ireland.
 
-Disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [S.I. No. 343 of 2015](https://www.irishstatutebook.ie/eli/2015/si/343). The European Commission lists approved ADR bodies at [Consumer Redress in the EU](https://consumer-redress.ec.europa.eu/index_en).
+Where you use the Service as a consumer, disputes with Tercen are regulated under the European Union (Alternative Dispute Resolution for Consumer Disputes) Regulations 2015. We can propose an ADR Provider or will listen to your proposal. If you are in any way concerned, you should read the regulations at: [S.I. No. 343 of 2015](https://www.irishstatutebook.ie/eli/2015/si/343). The European Commission lists approved ADR bodies at [Consumer Redress in the EU](https://consumer-redress.ec.europa.eu/index_en).
 
 ### 2. Non-Assignability
 
@@ -392,7 +392,7 @@ If any part of this Agreement is held invalid or unenforceable, that portion of 
 
 ### 5. Amendments; Complete Agreement
 
-This Agreement may only be modified by a written amendment signed by an authorized representative of Tercen, or by the posting by Tercen of a revised version in accordance with Section Q. Changes to These Terms. These Terms of Service, together with the Tercen Privacy Statement, represent the complete and exclusive statement of the agreement between you and us. This Agreement supersedes any proposal or prior agreement oral or written, and any other communications between you and Tercen relating to the subject matter of these terms including any confidentiality or nondisclosure agreements.
+This Agreement may only be modified by a written amendment signed by an authorized representative of Tercen, or by the posting by Tercen of a revised version in accordance with Section Q. Changes to These Terms. These Terms of Service, together with the Tercen Privacy Statement and any order form or other agreement for the Service signed by you and Tercen, represent the complete and exclusive statement of the agreement between you and us. If an order form or other signed agreement conflicts with these Terms of Service, the order form or other signed agreement prevails to the extent of the conflict. This Agreement supersedes any proposal or prior agreement oral or written, and any other communications between you and Tercen relating to the subject matter of these terms including any confidentiality or nondisclosure agreements.
 
 ### 6. Questions
 
