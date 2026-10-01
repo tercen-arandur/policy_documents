@@ -206,7 +206,7 @@ Output may contain material that resembles code or content in the model’s trai
 
 We use your Inputs to generate Outputs and provide the AI Features.
 
-[DECISION: whether Tercen, or a third-party AI model provider, may use your Inputs and Outputs to develop, train or improve artificial intelligence or machine learning models, and on what terms. GitHub grants itself such a licence for individual accounts, with an opt-out, and none where a customer agreement governs.]
+This Agreement does not grant Tercen or any third party a license to use your Inputs or Outputs to develop, train or improve artificial intelligence or machine learning models.
 
 ### 4. Disclaimers
 
@@ -280,7 +280,7 @@ You are responsible for all fees, including taxes, associated with your use of t
 
 ### 1. Account Cancellation
 
-It is your responsibility to properly cancel your Account with Tercen. You can cancel your Account at any time [TK: how an Organization cancels: a cancellation link in the Service, if there is one, or written notice to Tercen, and who may give it].
+It is your responsibility to properly cancel your Account with Tercen. An Organization may cancel its Account at any time by written notice to support@tercen.com from an authorised representative.
 
 ### 2. Upon Cancellation
 
